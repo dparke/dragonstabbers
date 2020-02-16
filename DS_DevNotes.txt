@@ -1,0 +1,76 @@
+Dragon Stabbers Notes
+
+
+
+
+Polish
+Balance tuning and playtesting...
+Clean up art:
+  - Check transparencies on images
+  - Reduce all art to fixed pallette
+  - 
+
+Bugs
+THE FONT PIXELS ARE HORRIBLE
+The final spire sequence seems to skip and hang-up
+
+
+
+Features
+Add a "Dark Tower" that is unlocked when Dungeons are cleared
+  - Spire now has a boss revue sequence
+MUSIC!!!
+Persistent towns people (single use) - Implemented as "one visit towns"
+  - Could remember who was there?  
+Fixed Dungeon Number (Can just take out the randomness in map gen, but need to ensure path-ability)
+More Dungeon Gameplay (parade of bosses in order?)
+Public and Secret Names for Actors (currently toggled by KONAMI)
+Death mechanic (Resleeve, introduce CRP stat)
+Game Over Screen - Tips
+Options - visuals for arrows and B/A
+Passwords - Get the 6-character password, check against list, enable a preference, show some kind of visual indicator on title screen.
+Quest includes map exploration percent
+[x] Have hills reveal more surrounding map
+[x] Differentiate Spawns for different landscape types
+[x] Game Over Stats
+
+Hook up SFX
+  - Could add Town "talk" sounds
+  - Could add unique player hit/death sounds
+  - Could add unique CEO Slick Sounds
+
+Consider adding some special moments of BLUE COLOR
+
+Add the Well
+
+More Townies
+  - Someone giving +SPD? (new stat, helps running, initiative, and lowers landscape spawn chance?)
+    - Maybe a basic "Innkeeper" and then give max health to doctor and spd to inventor?
+  - Choice of stats? (Only when TLK is over X?)
+  - Thief/Gold?
+
+Need to do some "winnable" testing (add some path-checking code?)
+
+Need an actual message that leads the players on to CLUA.
+
+Rez - Restore less than full health
+
+Add Special Skills as Treasure to Dungeon Bosses
+Consider having townies only appear after you have beaten them in a Dungeon
+
+
+[x] Konami - unlocks all other passwords
+[x] Source - Show revealing names
+[x] Justin - stats
+[x] Bailey - stats
+[x] Payday - gold
+[x] Sleeve - Rez
+[x] Berlin - Unlock Towns
+[x] Betray - Tower
+[ ] Sendai - ??? Enable item slot?
+[ ] Baxter - Well
+[ ] Choice - Pick b/t two townies on first enter
+[ ] Dragon - ??? Fight Dragon somehow?
+fezzes
+hijack
+aidmin

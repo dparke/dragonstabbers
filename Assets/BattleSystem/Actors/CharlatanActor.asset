@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61690fa8f6c4b004ea3a122e9cdc97ac, type: 3}
+  m_Name: CharlatanActor
+  m_EditorClassIdentifier: 
+  publicName: Charlatan
+  secretName: CEO Sli_ck
+  avatar: {fileID: 21300000, guid: 515a310bdcca2d1438630bd76f2d881b, type: 3}
+  attackSound: 4
+  hitSound: 7
+  deathSound: 8
+  health: 0
+  maxHealth: 12
+  gold: 10
+  degradation: 0
+  attackRange: {x: 0, y: 5}
+  attackDelta: 2
+  talkRange: {x: 0, y: 5}
+  talkDelta: 2
+  foundWell: 0
+  rewardType: 5
+  rewardRange: {x: 5, y: 10}
+  rewardDelta: 2
